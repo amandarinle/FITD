@@ -10,7 +10,8 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html'),
-        fullpage: resolve(__dirname, 'fullpage.html')
+        fullpage: resolve(__dirname, 'fullpage.html'),
+        landing: resolve(__dirname, 'landing.html')
       },
       output: {
         entryFileNames: `assets/[name].js`,
@@ -21,6 +22,6 @@ export default defineConfig({
   },
   server: {
     port: 3000,
-    open: '/fullpage.html', // Open fullpage view by default in dev mode
+    open: '/landing.html', // Open landing page by default in dev mode
   }
 });
