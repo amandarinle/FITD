@@ -127,6 +127,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 2rem;
+    max-width: 100%;
 }
 
 .navbar-brand {
@@ -141,6 +143,7 @@ body {
     display: flex;
     align-items: center;
     gap: 2rem;
+    margin-left: auto;
 }
 
 .nav-link {
@@ -161,6 +164,7 @@ body {
     border-radius: 4px;
     text-decoration: none;
     transition: background-color 0.3s ease;
+    margin-left: 2rem;
 }
 
 .signup-btn:hover {
